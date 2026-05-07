@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
     <a href="index.html" class="logo">
       <div class="logo-icone">CMA</div>
       <div class="logo-texto">
@@ -14,6 +15,17 @@
         <span class="logo-subtitulo">Educação com qualidade e amor</span>
       </div>
     </a>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="ativo" target="_blank">Início</a></li>
+            <li><a href="sobre.html" target="_blank">Sobre</a></li>
+            <li><a href="contato.html" target="_blank">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+
     <section style="
       background-color: var(--azul-escuro);
       color: white;
@@ -46,18 +58,142 @@
         formando cidadãos desde a Educação Infantil até o 9º ano do
         Ensino Fundamental.
       </p>
- 
 
-    <nav>
-        <ul>
-            <li><a href="index.html" class="ativo" target="_blank">Início</a></li>
-            <li><a href="sobre.html" target="_blank">Sobre</a></li>
-            <li><a href="contato.html" target="_blank">Contato</a></li>
-        </ul>
-        <main>
-            
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="sobre.html" class="btn btn-dourado" target="_blank">Conheça o Colégio</a>
+        <a href="contato.html" class="btn btn-contorno" target="_blank">Fale Conosco</a>
+      </div>
+      </section>
+
+      <section class="secao">
+ 
+      <!-- Título e linha decorativa -->
+      <h2 class="titulo">Por que escolher o Maria Alice?</h2>
+      <span class="titulo-linha"></span>
+     <p class="subtitulo">Há anos formando alunos com excelência, cuidado e dedicação.</p>
+
+     <div class="grid-cards"></div>
+
+     <!-- Card 1 -->
+        <div class="card">
+          <div class="card-icone">📚</div>
+          <h3>Ensino de Qualidade</h3>
+          <!-- ✏️ EDITE: fale sobre a qualidade de ensino do colégio -->
+          <p>Nossa proposta pedagógica estimula o raciocínio crítico
+            e o amor pelo aprendizado desde os primeiros anos de
+            vida escolar.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-icone">🤝</div>
+          <h3>Ambiente Acolhedor</h3>
+          <p>
+            <!-- ✏️ EDITE: fale sobre o ambiente do colégio -->
+            Acreditamos que um ambiente seguro e amoroso é a base
+            para que cada aluno se desenvolva com confiança,
+            respeito e alegria.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-icone">🌱</div>
+          <h3>Desenvolvimento Integral</h3>
+          <p>
+            <!-- ✏️ EDITE: fale sobre valores e atividades extras -->
+            Trabalhamos não só o conteúdo escolar, mas também
+            valores, criatividade e habilidades socioemocionais
+            para a vida toda.
+          </p>
+        </div>
+        </section>
+
+        <!-- ========================================================
+         SEÇÃO 3: NOSSAS TURMAS — fundo branco para contrastar
+         ======================================================== -->
+    <section class="secao-branca">
+      <div class="conteudo">
+ 
+        <h2 class="titulo">Nossas Turmas</h2>
+        <span class="titulo-linha"></span>
+        <p class="subtitulo">Atendemos do Infantil 3 ao 9º ano com estrutura completa.</p>
+
+         <div class="grid-cards">
+          <!-- Card Infantil -->
+          <div class="card" style="border-top-color: #e8a020;">
+            <div class="card-icone">🧸</div>
+            <h3>Educação Infantil</h3>
+            <p>
+              <!-- ✏️ EDITE: descreva o infantil do colégio -->
+              Infantil 3, 4 e 5 — Estimulação sensorial, ludicidade
+              e primeiras experiências escolares em ambiente
+              preparado e carinhoso.
+            </p>
+          </div>
+
+          <!-- Card Fundamental I -->
+          <div class="card" style="border-top-color: #2a7aad;">
+            <div class="card-icone">✏️</div>
+            <h3>Fundamental I</h3>
+            <p>
+              <!-- ✏️ EDITE: descreva o Fundamental I -->
+              1º ao 5º ano — Alfabetização, leitura, escrita e
+              matemática com metodologias ativas e professores
+              dedicados.
+            </p>
+          </div>
+
+          <!-- Card Fundamental II -->
+          <div class="card" style="border-top-color: #2a8a5c;">
+            <div class="card-icone">🔬</div>
+            <h3>Fundamental II</h3>
+            <p>
+              <!-- ✏️ EDITE: descreva o Fundamental II -->
+              6º ao 9º ano — Aprofundamento das disciplinas,
+              preparação para o Ensino Médio e desenvolvimento
+              da autonomia dos estudantes.
+            </p>
+          </div>
+
+          !-- Botão centralizado abaixo dos cards --!
+        <div style="text-align: center; margin-top: 36px;">
+          <a href="sobre.html" class="btn btn-dourado">Ver todas as turmas</a>
+        </div>
+
+         </div>
+        </section>
+
+        <!-- ========================================================
+         SEÇÃO 4: CHAMADA PARA MATRÍCULA — fundo azul escuro
+         ======================================================== -->
+    <section style="
+      background-color: var(--azul-escuro);
+      color: white;
+      text-align: center;
+      padding: 70px 40px;
+    ">
+    !-- ✏️ EDITE: título da chamada para matrícula -->
+      <h2 style="
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        margin-bottom: 14px;
+      ">Venha Conhecer Nossa Escola!</h2>
+
+      <!-- ✏️ EDITE: texto de apoio -->
+      <p style="
+        color: #b0c8de;
+        max-width: 480px;
+        margin: 0 auto 28px;
+        font-size: 1rem;
+      ">
+        Garanta já a vaga do seu filho. Entre em contato e saiba
+        mais sobre os documentos e condições de matrícula.
+      </p>
+       <a href="contato.html" class="btn btn-dourado" target="_blank">Entre em Contato</a>
+      </section>
 
         </main>
-    </nav>
 </body>
 </html>
